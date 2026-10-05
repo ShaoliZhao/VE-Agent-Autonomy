@@ -1,0 +1,15 @@
+services:
+  agent:
+    build: .
+    network_mode: none
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 64
+    mem_limit: 4g
+    cpus: 2
+    volumes:
+      - ./examples:/workspace/examples:ro
+      - ./run-output:/workspace/run-output:rw
+    tmpfs:
+      - /tmp:size=256m

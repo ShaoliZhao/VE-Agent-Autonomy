@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vec-agent-autonomy-lab"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+[project.scripts]
+vec-agent-lock = "vec_harness.cli:main"
+vec-agent-search = "vec_search.cli:main"
+vec-agent-sandbox = "vec_sandbox.cli:main"
+
+[tool.setuptools]
+packages = ["vec_harness", "vec_search", "vec_sandbox"]

@@ -1,0 +1,11 @@
+{
+  "work_dir": "examples/sandbox",
+  "output_dir": "run-output",
+  "wall_seconds": 30,
+  "cpu_seconds": 20,
+  "memory_mb": 1024,
+  "file_mb": 200,
+  "max_processes": 32,
+  "network": "none",
+  "environment_allowlist": ["PATH", "LANG"]
+}

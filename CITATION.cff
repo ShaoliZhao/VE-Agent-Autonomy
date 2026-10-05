@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "VEC Agent Autonomy Lab"
+message: "Please cite this repository release if it supports your work."
+type: software
+version: 0.1.0
+date-released: 2026-10-05
+license: MIT
+authors:
+  - family-names: Zhao
+    given-names: Shaoli
+abstract: "An executable lab for locked Agent Team runs, combining configuration hashing, append-only experiment records, budgeted candidate promotion, resource controls, synthetic failure tests and final-artifact verification. It supports reproducible autonomous evaluation, recovery, selection and output generation."
